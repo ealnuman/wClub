@@ -1,0 +1,46 @@
+{
+  "name": "Membership Plan",
+  "module": "wClub",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "club",
+      "label": "Club",
+      "fieldtype": "Link",
+      "options": "Club"
+    },
+    {
+      "fieldname": "plan_name",
+      "label": "Plan Name",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "price",
+      "label": "Price",
+      "fieldtype": "Currency"
+    },
+    {
+      "fieldname": "duration_months",
+      "label": "Duration",
+      "fieldtype": "Int"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "Club Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "Coach",
+      "read": 1
+    },
+    {
+      "role": "Front Desk",
+      "read": 1,
+      "create": 1
+    }
+  ]
+}

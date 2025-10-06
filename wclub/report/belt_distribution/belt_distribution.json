@@ -1,0 +1,6 @@
+{
+  "report_name": "Belt Distribution",
+  "ref_doctype": "Member",
+  "report_type": "Script Report",
+  "module": "wClub"
+}

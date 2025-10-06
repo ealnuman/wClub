@@ -1,0 +1,14 @@
+{
+  "app_name": "wclub",
+  "app_title": "wClub",
+  "app_publisher": "Taqrieb Information Technology Company",
+  "app_description": "Multi-tenant fighting club management for Frappe v15+",
+  "app_email": "support@taqrieb.com",
+  "app_license": "MIT",
+  "app_version": "1.0.0",
+  "category": "Healthcare & Fitness",
+  "icon": "app_logo.png",
+  "color": "#1BC3D9",
+  "documentation_url": "https://github.com/taqrieb/wclub",
+  "website": "https://taqrieb.com"
+}

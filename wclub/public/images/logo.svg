@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60">
+  <rect width="200" height="60" fill="#1BC3D9"/>
+  <text x="100" y="35" font-size="20" text-anchor="middle" fill="white" font-family="Arial">
+    wClub
+  </text>
+</svg>

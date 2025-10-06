@@ -1,0 +1,42 @@
+{
+  "name": "Class",
+  "module": "wClub",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "club",
+      "label": "Club",
+      "fieldtype": "Link",
+      "options": "Club"
+    },
+    {
+      "fieldname": "class_name",
+      "label": "Class Name",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "coach",
+      "label": "Coach",
+      "fieldtype": "Link",
+      "options": "Coach"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "Club Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "Coach",
+      "read": 1
+    },
+    {
+      "role": "Front Desk",
+      "read": 1,
+      "create": 1
+    }
+  ]
+}

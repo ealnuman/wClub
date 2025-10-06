@@ -1,0 +1,2 @@
+import frappe
+# Coach DocType

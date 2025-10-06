@@ -1,0 +1,9 @@
+[project]
+name = "wclub"
+version = "1.0.0"
+description = "wClub — Multi-tenant fighting club management for Frappe v15+"
+readme = "README.md"
+authors = [{name="Taqrieb Information Technology Company", email="support@taqrieb.com"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["frappe>=15,<17"]

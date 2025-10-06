@@ -1,0 +1,47 @@
+{
+  "name": "Offer",
+  "module": "wClub",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "club",
+      "label": "Club",
+      "fieldtype": "Link",
+      "options": "Club"
+    },
+    {
+      "fieldname": "title",
+      "label": "Title",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "offer_type",
+      "label": "Type",
+      "fieldtype": "Select",
+      "options": "Percent\nAmount"
+    },
+    {
+      "fieldname": "value",
+      "label": "Value",
+      "fieldtype": "Float"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "Club Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "Coach",
+      "read": 1
+    },
+    {
+      "role": "Front Desk",
+      "read": 1,
+      "create": 1
+    }
+  ]
+}

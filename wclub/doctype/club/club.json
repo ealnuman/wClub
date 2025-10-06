@@ -1,0 +1,37 @@
+{
+  "name": "Club",
+  "module": "wClub",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "club_name",
+      "label": "Club Name",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "email",
+      "label": "Email",
+      "fieldtype": "Data"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "Club Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "Coach",
+      "read": 1
+    },
+    {
+      "role": "Front Desk",
+      "read": 1,
+      "create": 1
+    }
+  ],
+  "autoname": "field:club_name"
+}

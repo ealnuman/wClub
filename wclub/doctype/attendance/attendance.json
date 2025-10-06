@@ -1,0 +1,43 @@
+{
+  "name": "Attendance",
+  "module": "wClub",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "session",
+      "label": "Session",
+      "fieldtype": "Link",
+      "options": "Session"
+    },
+    {
+      "fieldname": "member",
+      "label": "Member",
+      "fieldtype": "Link",
+      "options": "Member"
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": "Present\nAbsent"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "Club Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "Coach",
+      "read": 1
+    },
+    {
+      "role": "Front Desk",
+      "read": 1,
+      "create": 1
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Session",
+  "module": "wClub",
+  "custom": 0,
+  "fields": [
+    {
+      "fieldname": "club",
+      "label": "Club",
+      "fieldtype": "Link",
+      "options": "Club"
+    },
+    {
+      "fieldname": "class_ref",
+      "label": "Class",
+      "fieldtype": "Link",
+      "options": "Class"
+    },
+    {
+      "fieldname": "date",
+      "label": "Date",
+      "fieldtype": "Date"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "Club Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1
+    },
+    {
+      "role": "Coach",
+      "read": 1
+    },
+    {
+      "role": "Front Desk",
+      "read": 1,
+      "create": 1
+    }
+  ]
+}

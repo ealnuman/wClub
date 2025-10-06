@@ -1,0 +1,2 @@
+import frappe
+# Class DocType
