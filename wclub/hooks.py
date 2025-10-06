@@ -7,5 +7,10 @@ app_license = "MIT"
 app_version = "1.0.0"
 
 after_install = "wclub.after_install.run"
-
 app_logo = "/assets/wclub/images/logo.svg"
+
+doc_events = {
+    "Belt Upgrade": {
+        "on_submit": "wclub.belt_upgrade.on_submit"
+    }
+}

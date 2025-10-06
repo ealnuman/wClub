@@ -17,20 +17,11 @@
   ],
   "permissions": [
     {
-      "role": "Club Manager",
+      "role": "System Manager",
       "read": 1,
       "write": 1,
       "create": 1,
       "delete": 1
-    },
-    {
-      "role": "Coach",
-      "read": 1
-    },
-    {
-      "role": "Front Desk",
-      "read": 1,
-      "create": 1
     }
   ]
 }

@@ -1,5 +1,5 @@
 import frappe
-from frappe.utils import nowdate, flt
+from frappe.utils import flt
 
 @frappe.whitelist()
 def apply_discount(club, member, amount, offer=None, coupon_code=None):

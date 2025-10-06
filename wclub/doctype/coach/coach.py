@@ -1,2 +1,1 @@
 import frappe
-# Coach DocType
