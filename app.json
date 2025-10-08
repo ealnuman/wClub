@@ -10,5 +10,7 @@
   "icon": "app_logo.png",
   "color": "#1BC3D9",
   "documentation_url": "https://github.com/taqrieb/wclub",
-  "website": "https://taqrieb.com"
+  "website": "https://taqrieb.com",
+  "support_url": "https://taqrieb.com/support",
+  "privacy_policy_url": "https://github.com/taqrieb/wclub/blob/main/PRIVACY.md"
 }
