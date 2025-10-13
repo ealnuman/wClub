@@ -1,0 +1,13 @@
+{
+  "db_name": "wclub_demo",
+  "db_password": "REPLACE-ME",
+  "admin_password": "admin123",
+  "developer_mode": 1,
+  "host_name": "https://demo.wclub.taqrieb.com",
+  "installed_apps": [
+    "frappe",
+    "wclub"
+  ],
+  "default_timezone": "Asia/Riyadh",
+  "support_email": "support@taqrieb.com"
+}

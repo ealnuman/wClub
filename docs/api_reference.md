@@ -1,0 +1,5 @@
+# API Reference (Whitelisted)
+- wclub.api.booking.create(member, session, coupon=None)
+- wclub.api.booking_actions.cancel(booking)
+- wclub.api.sessions.list_available(limit=50)
+- wclub.api.kiosk.check_in(booking)
