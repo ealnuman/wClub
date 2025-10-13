@@ -1,0 +1,12 @@
+{
+  "doctype": "DocType",
+  "name": "Attendance Entry",
+  "module": "wclub",
+  "custom": 1,
+  "fields": [],
+  "permissions": [
+    {
+      "role": "System Manager"
+    }
+  ]
+}

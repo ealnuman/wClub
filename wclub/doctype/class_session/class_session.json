@@ -1,0 +1,12 @@
+{
+  "doctype": "DocType",
+  "name": "Class Session",
+  "module": "wclub",
+  "custom": 1,
+  "fields": [],
+  "permissions": [
+    {
+      "role": "System Manager"
+    }
+  ]
+}

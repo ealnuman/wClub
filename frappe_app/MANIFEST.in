@@ -1,4 +1,0 @@
-recursive-include wclub *.py *.json *.md *.txt *.html *.js *.css *.png *.jpg
-include README.md
-recursive-include wclub/public *
-recursive-include wclub/fixtures *.json

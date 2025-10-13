@@ -1,0 +1,11 @@
+[project]
+name = "wclub"
+version = "1.0.0"
+description = "Fighting club & dojo management for Frappe"
+authors = [{ name = "Taqrieb IT", email = "support@taqrieb.com" }]
+license = { text = "Taqrieb Proprietary License" }
+requires-python = ">=3.10"
+dependencies = ["frappe>=15,<16"]
+
+[tool.setuptools]
+packages = ["wclub"]

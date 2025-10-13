@@ -1,0 +1,12 @@
+{
+  "doctype": "DocType",
+  "name": "Promotion Candidate",
+  "module": "wclub",
+  "custom": 1,
+  "fields": [],
+  "permissions": [
+    {
+      "role": "System Manager"
+    }
+  ]
+}

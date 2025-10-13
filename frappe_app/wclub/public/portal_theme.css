@@ -1,5 +1,0 @@
-body[data-theme='dark'] { background:#111; color:#eee; }
-body[data-theme='light'] { background:#fff; color:#111; }
-button#theme-toggle { padding:6px 10px; }
-.table.table-bordered { width:100%; border-collapse:collapse; }
-.table.table-bordered th, .table.table-bordered td { border:1px solid #ccc; padding:6px; }
