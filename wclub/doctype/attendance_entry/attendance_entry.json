@@ -1,0 +1,34 @@
+{
+  "doctype": "DocType",
+  "name": "Attendance Entry",
+  "module": "wclub",
+  "custom": 1,
+  "istable": 1,
+  "is_submittable": 0,
+  "fields": [
+    {
+      "fieldname": "member",
+      "label": "Member",
+      "fieldtype": "Link",
+      "options": "Member",
+      "reqd": 1
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": "Present\\nLate\\nAbsent",
+      "default": "Present"
+    },
+    {
+      "fieldname": "check_in_time",
+      "label": "Check In Time",
+      "fieldtype": "Datetime"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager"
+    }
+  ]
+}

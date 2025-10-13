@@ -1,0 +1,41 @@
+[
+  {
+    "doctype": "Workflow",
+    "workflow_name": "Booking Workflow",
+    "document_type": "Booking",
+    "is_active": 1,
+    "states": [
+      {
+        "state": "Booked",
+        "doc_status": 0,
+        "allow_edit": "Front Desk"
+      },
+      {
+        "state": "Checked-in",
+        "doc_status": 1
+      },
+      {
+        "state": "Cancelled",
+        "doc_status": 1
+      },
+      {
+        "state": "No-show",
+        "doc_status": 1
+      }
+    ],
+    "transitions": [
+      {
+        "state": "Booked",
+        "action": "Check-in",
+        "next_state": "Checked-in",
+        "allow": "Front Desk"
+      },
+      {
+        "state": "Booked",
+        "action": "Cancel",
+        "next_state": "Cancelled",
+        "allow": "Front Desk"
+      }
+    ]
+  }
+]

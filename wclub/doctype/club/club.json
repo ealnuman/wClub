@@ -1,27 +1,40 @@
 {
+  "doctype": "DocType",
   "name": "Club",
-  "module": "wClub",
-  "custom": 0,
+  "module": "wclub",
+  "custom": 1,
+  "istable": 0,
+  "is_submittable": 0,
   "fields": [
     {
-      "fieldname": "club_name",
-      "label": "Club Name",
+      "fieldname": "company",
+      "label": "Company",
+      "fieldtype": "Link",
+      "options": "Company"
+    },
+    {
+      "fieldname": "code",
+      "label": "Code",
       "fieldtype": "Data",
       "reqd": 1
     },
     {
-      "fieldname": "email",
-      "label": "Email",
+      "fieldname": "brand_color",
+      "label": "Brand Color",
+      "fieldtype": "Color"
+    },
+    {
+      "fieldname": "timezone",
+      "label": "Timezone",
       "fieldtype": "Data"
     }
   ],
   "permissions": [
     {
-      "role": "System Manager",
-      "read": 1,
-      "write": 1,
-      "create": 1,
-      "delete": 1
+      "role": "System Manager"
+    },
+    {
+      "role": "Club Admin"
     }
   ]
 }

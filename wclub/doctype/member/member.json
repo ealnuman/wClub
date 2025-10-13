@@ -1,8 +1,32 @@
 {
+  "doctype": "DocType",
   "name": "Member",
-  "module": "wClub",
-  "custom": 0,
+  "module": "wclub",
+  "custom": 1,
+  "istable": 0,
+  "is_submittable": 0,
   "fields": [
+    {
+      "fieldname": "first_name",
+      "label": "First Name",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "last_name",
+      "label": "Last Name",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "email",
+      "label": "Email",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "phone",
+      "label": "Phone",
+      "fieldtype": "Data"
+    },
     {
       "fieldname": "club",
       "label": "Club",
@@ -10,24 +34,23 @@
       "options": "Club"
     },
     {
-      "fieldname": "first_name",
-      "label": "First Name",
-      "fieldtype": "Data"
-    },
-    {
-      "fieldname": "current_belt",
-      "label": "Current Belt",
+      "fieldname": "current_belt_level",
+      "label": "Current Belt Level",
       "fieldtype": "Link",
-      "options": "Belt Rank"
+      "options": "Belt Level"
     }
   ],
   "permissions": [
     {
-      "role": "System Manager",
+      "role": "System Manager"
+    },
+    {
+      "role": "Club Admin"
+    },
+    {
+      "role": "Front Desk",
       "read": 1,
-      "write": 1,
-      "create": 1,
-      "delete": 1
+      "write": 1
     }
   ]
 }

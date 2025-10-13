@@ -1,0 +1,39 @@
+{
+  "doctype": "DocType",
+  "name": "Promotion Candidate",
+  "module": "wclub",
+  "custom": 1,
+  "istable": 1,
+  "is_submittable": 0,
+  "fields": [
+    {
+      "fieldname": "member",
+      "label": "Member",
+      "fieldtype": "Link",
+      "options": "Member",
+      "reqd": 1
+    },
+    {
+      "fieldname": "fee",
+      "label": "Fee",
+      "fieldtype": "Currency"
+    },
+    {
+      "fieldname": "result",
+      "label": "Result",
+      "fieldtype": "Select",
+      "options": "Pending\\nPass\\nFail",
+      "default": "Pending"
+    },
+    {
+      "fieldname": "notes",
+      "label": "Notes",
+      "fieldtype": "Small Text"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "doctype": "DocType",
+  "name": "Promotion Record",
+  "module": "wclub",
+  "custom": 1,
+  "istable": 0,
+  "is_submittable": 0,
+  "fields": [
+    {
+      "fieldname": "member",
+      "label": "Member",
+      "fieldtype": "Link",
+      "options": "Member",
+      "reqd": 1
+    },
+    {
+      "fieldname": "from_level",
+      "label": "From Level",
+      "fieldtype": "Link",
+      "options": "Belt Level"
+    },
+    {
+      "fieldname": "to_level",
+      "label": "To Level",
+      "fieldtype": "Link",
+      "options": "Belt Level",
+      "reqd": 1
+    },
+    {
+      "fieldname": "date",
+      "label": "Date",
+      "fieldtype": "Date",
+      "reqd": 1
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager"
+    },
+    {
+      "role": "Club Admin"
+    },
+    {
+      "role": "Coach",
+      "read": 1
+    }
+  ]
+}

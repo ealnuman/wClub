@@ -1,0 +1,49 @@
+{
+  "doctype": "DocType",
+  "name": "Booking",
+  "module": "wclub",
+  "custom": 1,
+  "istable": 0,
+  "is_submittable": 1,
+  "fields": [
+    {
+      "fieldname": "member",
+      "label": "Member",
+      "fieldtype": "Link",
+      "options": "Member",
+      "reqd": 1
+    },
+    {
+      "fieldname": "session",
+      "label": "Session",
+      "fieldtype": "Link",
+      "options": "Class Session",
+      "reqd": 1
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": "Booked\\nChecked-in\\nCancelled\\nNo-show",
+      "default": "Booked"
+    },
+    {
+      "fieldname": "price",
+      "label": "Price",
+      "fieldtype": "Currency"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager"
+    },
+    {
+      "role": "Club Admin"
+    },
+    {
+      "role": "Front Desk",
+      "read": 1,
+      "write": 1
+    }
+  ]
+}

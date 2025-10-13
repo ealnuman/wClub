@@ -1,0 +1,8 @@
+[
+  {
+    "doctype": "Email Template",
+    "name": "Booking Confirmation",
+    "subject": "Your booking is confirmed",
+    "response": "Dear {{ doc.member }}, your booking {{ doc.name }} is confirmed for session {{ doc.session }}."
+  }
+]
