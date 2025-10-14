@@ -2,8 +2,24 @@
   "doctype": "DocType",
   "name": "Waitlist Entry",
   "module": "wclub",
-  "custom": 1,
-  "fields": [],
+  "custom": 0,
+  "istable": 1,
+  "is_submittable": 0,
+  "fields": [
+    {
+      "fieldname": "member",
+      "label": "Member",
+      "fieldtype": "Link",
+      "options": "Member",
+      "reqd": 1
+    },
+    {
+      "fieldname": "priority",
+      "label": "Priority",
+      "fieldtype": "Int",
+      "default": 10
+    }
+  ],
   "permissions": [
     {
       "role": "System Manager"

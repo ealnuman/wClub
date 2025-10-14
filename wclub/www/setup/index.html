@@ -17,9 +17,18 @@
 })();
 </script>
 
-<h2>Self Check-in</h2>
-<form method="post" action="/api/method/wclub.wclub.api.kiosk.check_in" class="card">
+<h2>Setup wClub</h2>
+<form method="post" action="/api/method/wclub.wclub.api.setup.save">
   <input type="hidden" name="csrf_token" value="{{ frappe.session.csrf_token }}">
-  <input name="booking" placeholder="Booking ID" required>
-  <button type="submit">Check In</button>
+  <div class="card">
+    <label>Club Name</label><br><input name="club_name" required>
+  </div>
+  <div class="card">
+    <label>Timezone</label><br><input name="timezone" value="Asia/Riyadh">
+  </div>
+  <div class="card">
+    <label><input type="checkbox" name="load_demo" checked> Load demo data</label>
+  </div>
+  <button type="submit">Save</button>
 </form>
+<p class="card">You can revisit this page anytime to re-load demo data.</p>

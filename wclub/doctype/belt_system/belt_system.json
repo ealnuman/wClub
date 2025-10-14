@@ -1,6 +1,6 @@
 {
   "doctype": "DocType",
-  "name": "Class Type",
+  "name": "Belt System",
   "module": "wclub",
   "custom": 0,
   "istable": 0,
@@ -13,15 +13,9 @@
       "reqd": 1
     },
     {
-      "fieldname": "min_age",
-      "label": "Min Age",
-      "fieldtype": "Int"
-    },
-    {
-      "fieldname": "required_belt",
-      "label": "Required Belt",
-      "fieldtype": "Link",
-      "options": "Belt Level"
+      "fieldname": "description",
+      "label": "Description",
+      "fieldtype": "Small Text"
     }
   ],
   "permissions": [

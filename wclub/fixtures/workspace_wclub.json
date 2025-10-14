@@ -1,7 +1,32 @@
 [
   {
     "doctype": "Workspace",
-    "label": "wClub",
-    "public": 1
+    "label": "wClub Dashboard",
+    "public": 1,
+    "sequence_id": 1
+  },
+  {
+    "doctype": "Workspace",
+    "label": "Members & Promotions",
+    "public": 1,
+    "sequence_id": 2
+  },
+  {
+    "doctype": "Workspace",
+    "label": "Classes & Bookings",
+    "public": 1,
+    "sequence_id": 3
+  },
+  {
+    "doctype": "Workspace",
+    "label": "Analytics & Reports",
+    "public": 1,
+    "sequence_id": 4
+  },
+  {
+    "doctype": "Workspace",
+    "label": "Setup & Master Data",
+    "public": 1,
+    "sequence_id": 5
   }
 ]

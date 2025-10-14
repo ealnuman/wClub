@@ -1,2 +1,1 @@
 import frappe
-import frappe

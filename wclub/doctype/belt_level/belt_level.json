@@ -1,0 +1,41 @@
+{
+  "doctype": "DocType",
+  "name": "Belt Level",
+  "module": "wclub",
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 0,
+  "fields": [
+    {
+      "fieldname": "belt_system",
+      "label": "Belt System",
+      "fieldtype": "Link",
+      "options": "Belt System",
+      "reqd": 1
+    },
+    {
+      "fieldname": "order",
+      "label": "Order",
+      "fieldtype": "Int",
+      "reqd": 1
+    },
+    {
+      "fieldname": "color",
+      "label": "Color",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "min_weeks_since_last",
+      "label": "Min Weeks Since Last",
+      "fieldtype": "Int"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager"
+    },
+    {
+      "role": "Club Admin"
+    }
+  ]
+}

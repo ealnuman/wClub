@@ -2,11 +2,69 @@
   "doctype": "DocType",
   "name": "Class Session",
   "module": "wclub",
-  "custom": 1,
-  "fields": [],
+  "custom": 0,
+  "istable": 0,
+  "is_submittable": 0,
+  "fields": [
+    {
+      "fieldname": "class_type",
+      "label": "Class Type",
+      "fieldtype": "Link",
+      "options": "Class Type",
+      "reqd": 1
+    },
+    {
+      "fieldname": "dojo",
+      "label": "Dojo",
+      "fieldtype": "Link",
+      "options": "Dojo",
+      "reqd": 1
+    },
+    {
+      "fieldname": "coach",
+      "label": "Coach",
+      "fieldtype": "Link",
+      "options": "User"
+    },
+    {
+      "fieldname": "start",
+      "label": "Start",
+      "fieldtype": "Datetime",
+      "reqd": 1
+    },
+    {
+      "fieldname": "end",
+      "label": "End",
+      "fieldtype": "Datetime"
+    },
+    {
+      "fieldname": "capacity",
+      "label": "Capacity",
+      "fieldtype": "Int"
+    },
+    {
+      "fieldname": "attendance",
+      "label": "Attendance",
+      "fieldtype": "Table",
+      "options": "Attendance Entry"
+    },
+    {
+      "fieldname": "waitlist",
+      "label": "Waitlist",
+      "fieldtype": "Table",
+      "options": "Waitlist Entry"
+    }
+  ],
   "permissions": [
     {
       "role": "System Manager"
+    },
+    {
+      "role": "Club Admin"
+    },
+    {
+      "role": "Coach",
+      "read": 1
     }
   ]
 }

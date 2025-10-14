@@ -1,3 +1,1 @@
-recursive-include wclub *.py *.json *.md *.txt *.html *.js *.css *.png *.jpg *.svg
-recursive-include wclub/public *
-recursive-include wclub/fixtures *.json
+recursive-include wclub *

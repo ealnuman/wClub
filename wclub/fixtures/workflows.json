@@ -1,1 +1,123 @@
-[]
+[
+  {
+    "doctype": "Workflow",
+    "workflow_name": "Booking Workflow",
+    "document_type": "Booking",
+    "is_active": 1,
+    "states": [
+      {
+        "state": "Booked",
+        "doc_status": 0,
+        "allow_edit": "Front Desk"
+      },
+      {
+        "state": "Checked-in",
+        "doc_status": 1
+      },
+      {
+        "state": "Cancelled",
+        "doc_status": 1
+      },
+      {
+        "state": "No-show",
+        "doc_status": 1
+      }
+    ],
+    "transitions": [
+      {
+        "state": "Booked",
+        "action": "Check-in",
+        "next_state": "Checked-in",
+        "allow": "Front Desk"
+      },
+      {
+        "state": "Booked",
+        "action": "Cancel",
+        "next_state": "Cancelled",
+        "allow": "Front Desk"
+      }
+    ]
+  },
+  {
+    "doctype": "Workflow",
+    "workflow_name": "Class Session Workflow",
+    "document_type": "Class Session",
+    "is_active": 1,
+    "states": [
+      {
+        "state": "Draft",
+        "doc_status": 0,
+        "allow_edit": "Club Admin"
+      },
+      {
+        "state": "Active",
+        "doc_status": 1
+      },
+      {
+        "state": "Closed",
+        "doc_status": 1
+      }
+    ],
+    "transitions": [
+      {
+        "state": "Draft",
+        "action": "Submit",
+        "next_state": "Active",
+        "allow": "Club Admin"
+      },
+      {
+        "state": "Active",
+        "action": "Close",
+        "next_state": "Closed",
+        "allow": "Coach"
+      },
+      {
+        "state": "Closed",
+        "action": "Reopen",
+        "next_state": "Active",
+        "allow": "System Manager"
+      }
+    ]
+  },
+  {
+    "doctype": "Workflow",
+    "workflow_name": "Promotion Exam Workflow",
+    "document_type": "Promotion Exam",
+    "is_active": 1,
+    "states": [
+      {
+        "state": "Scheduled",
+        "doc_status": 0,
+        "allow_edit": "Club Admin"
+      },
+      {
+        "state": "In Progress",
+        "doc_status": 1
+      },
+      {
+        "state": "Completed",
+        "doc_status": 1
+      }
+    ],
+    "transitions": [
+      {
+        "state": "Scheduled",
+        "action": "Start",
+        "next_state": "In Progress",
+        "allow": "Club Admin"
+      },
+      {
+        "state": "In Progress",
+        "action": "Complete",
+        "next_state": "Completed",
+        "allow": "Coach"
+      },
+      {
+        "state": "Completed",
+        "action": "Reopen",
+        "next_state": "In Progress",
+        "allow": "System Manager"
+      }
+    ]
+  }
+]
