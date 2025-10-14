@@ -1,6 +1,6 @@
 {
   "doctype": "DocType",
-  "name": "Club",
+  "name": "Class Type",
   "module": "wclub",
   "custom": 1,
   "fields": [],

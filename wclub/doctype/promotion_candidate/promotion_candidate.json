@@ -1,6 +1,6 @@
 {
   "doctype": "DocType",
-  "name": "Club",
+  "name": "Promotion Candidate",
   "module": "wclub",
   "custom": 1,
   "fields": [],
