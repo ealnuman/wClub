@@ -1,29 +1,10 @@
 [
   {
     "doctype": "Dashboard Chart",
-    "chart_name": "Members by Belt Level",
-    "chart_type": "Report",
-    "report_name": "Belt Distribution",
-    "type": "Bar",
-    "time_interval": "Monthly",
-    "timeseries": 0
-  },
-  {
-    "doctype": "Dashboard Chart",
-    "chart_name": "Session Utilization",
+    "chart_name": "Bookings by Status",
     "chart_type": "Report",
     "report_name": "Class Utilization",
-    "type": "Line",
-    "time_interval": "Daily",
-    "timeseries": 0
-  },
-  {
-    "doctype": "Dashboard Chart",
-    "chart_name": "Monthly Revenue",
-    "chart_type": "Report",
-    "report_name": "Revenue Summary (by Class Type)",
     "type": "Bar",
-    "time_interval": "Monthly",
     "timeseries": 0
   }
 ]

@@ -7,52 +7,21 @@
   "is_submittable": 0,
   "fields": [
     {
-      "fieldname": "class_type",
-      "label": "Class Type",
-      "fieldtype": "Link",
-      "options": "Class Type",
+      "fieldname": "title",
+      "label": "Title",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "date",
+      "label": "Date",
+      "fieldtype": "Date",
       "reqd": 1
     },
     {
       "fieldname": "dojo",
       "label": "Dojo",
-      "fieldtype": "Link",
-      "options": "Dojo",
-      "reqd": 1
-    },
-    {
-      "fieldname": "coach",
-      "label": "Coach",
-      "fieldtype": "Link",
-      "options": "User"
-    },
-    {
-      "fieldname": "start",
-      "label": "Start",
-      "fieldtype": "Datetime",
-      "reqd": 1
-    },
-    {
-      "fieldname": "end",
-      "label": "End",
-      "fieldtype": "Datetime"
-    },
-    {
-      "fieldname": "capacity",
-      "label": "Capacity",
-      "fieldtype": "Int"
-    },
-    {
-      "fieldname": "attendance",
-      "label": "Attendance",
-      "fieldtype": "Table",
-      "options": "Attendance Entry"
-    },
-    {
-      "fieldname": "waitlist",
-      "label": "Waitlist",
-      "fieldtype": "Table",
-      "options": "Waitlist Entry"
+      "fieldtype": "Data"
     }
   ],
   "permissions": [

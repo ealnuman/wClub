@@ -1,1 +1,1 @@
-wclub.wclub.patches.v1.initial_seed
+# optional demo seed only via setup action

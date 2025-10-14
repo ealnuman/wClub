@@ -4,7 +4,7 @@
   "module": "wclub",
   "custom": 0,
   "istable": 0,
-  "is_submittable": 1,
+  "is_submittable": 0,
   "fields": [
     {
       "fieldname": "member",
@@ -24,13 +24,8 @@
       "fieldname": "status",
       "label": "Status",
       "fieldtype": "Select",
-      "options": "Booked\\nChecked-in\\nCancelled\\nNo-show",
+      "options": "Booked\\nCancelled",
       "default": "Booked"
-    },
-    {
-      "fieldname": "price",
-      "label": "Price",
-      "fieldtype": "Currency"
     }
   ],
   "permissions": [

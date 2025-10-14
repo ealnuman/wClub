@@ -1,1 +1,1 @@
-# wClub v1.1.0
+# wClub v1.2.0 (Clean Rebuild)

@@ -2,19 +2,7 @@
   {
     "doctype": "Email Template",
     "name": "Booking Confirmation",
-    "subject": "Your wClub booking is confirmed",
-    "response": "Dear {{ doc.member }}, your booking {{ doc.name }} is confirmed for session {{ doc.session }}."
-  },
-  {
-    "doctype": "Email Template",
-    "name": "Class Reminder",
-    "subject": "Reminder: Your class is coming up",
-    "response": "Hi {{ doc.member }}, this is a reminder for your class {{ doc.session }} on {{ doc.start }}."
-  },
-  {
-    "doctype": "Email Template",
-    "name": "Promotion Result",
-    "subject": "Your Promotion Exam Result",
-    "response": "Congratulations {{ doc.member }}! Your result: {{ doc.to_level }}."
+    "subject": "Booking Confirmed",
+    "response": "Your booking {{ doc.name }} is confirmed."
   }
 ]

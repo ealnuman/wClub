@@ -4,37 +4,10 @@
     "subject": "New Booking",
     "document_type": "Booking",
     "event": "New",
-    "message": "New booking {{ doc.name }} for session {{ doc.session }}",
+    "message": "New booking {{ doc.name }}",
     "recipients": [
       {
-        "receiver_by_role": "Coach"
-      }
-    ],
-    "enabled": 1
-  },
-  {
-    "doctype": "Notification",
-    "subject": "Booking Cancelled",
-    "document_type": "Booking",
-    "event": "Value Change",
-    "value_changed": "status",
-    "message": "Booking {{ doc.name }} was cancelled",
-    "recipients": [
-      {
-        "receiver_by_role": "Member"
-      }
-    ],
-    "enabled": 1
-  },
-  {
-    "doctype": "Notification",
-    "subject": "Promotion Result",
-    "document_type": "Promotion Record",
-    "event": "New",
-    "message": "Your promotion result is {{ doc.to_level }}",
-    "recipients": [
-      {
-        "receiver_by_role": "Member"
+        "receiver_by_role": "Club Admin"
       }
     ],
     "enabled": 1

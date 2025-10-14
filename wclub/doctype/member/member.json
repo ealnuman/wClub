@@ -13,31 +13,11 @@
       "reqd": 1
     },
     {
-      "fieldname": "last_name",
-      "label": "Last Name",
-      "fieldtype": "Data"
-    },
-    {
-      "fieldname": "email",
-      "label": "Email",
-      "fieldtype": "Data"
-    },
-    {
-      "fieldname": "phone",
-      "label": "Phone",
-      "fieldtype": "Data"
-    },
-    {
-      "fieldname": "club",
-      "label": "Club",
-      "fieldtype": "Link",
-      "options": "Club"
-    },
-    {
-      "fieldname": "current_belt_level",
-      "label": "Current Belt Level",
-      "fieldtype": "Link",
-      "options": "Belt Level"
+      "fieldname": "belt",
+      "label": "Belt",
+      "fieldtype": "Select",
+      "options": "White\\nBrown\\nBlack",
+      "default": "White"
     }
   ],
   "permissions": [

@@ -1,9 +1,8 @@
 [project]
-name = "wclub"
-version = "1.1.0"
-description = "Fighting club & dojo management for Frappe"
-authors = [{ name = "Taqrieb IT", email = "support@taqrieb.com" }]
-requires-python = ">=3.10"
-dependencies = ["frappe>=15,<16"]
+name='wclub'
+version='1.2.0'
+description='wClub – Fighting Club & Dojo Management'
+requires-python='>=3.10'
+dependencies=['frappe>=15,<16']
 [tool.setuptools]
-packages = ["wclub"]
+packages=['wclub']
